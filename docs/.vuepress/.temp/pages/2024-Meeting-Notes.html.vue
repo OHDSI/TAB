@@ -51,11 +51,17 @@
 <li>Create a roadmap for supported technologies (e.g., runtimes, database platforms, R versions).</li>
 <li>Provide clarity on tool and CDM version compatibility.</li>
 </ul>
-<h3 id="_7-data-shield-synergies" tabindex="-1"><a class="header-anchor" href="#_7-data-shield-synergies"><span>7. <strong>Data Shield Synergies</strong></span></a></h3>
+<h3 id="_7-federated-learning" tabindex="-1"><a class="header-anchor" href="#_7-federated-learning"><span>7. Federated Learning</span></a></h3>
 <ul>
-<li>Explore federated analytics opportunities for improved data security and collaboration.</li>
+<li>The TAB discussed various approaches to federated research in 2024 including:
+<ul>
+<li>Strategus</li>
+<li>Study Packages</li>
+<li>Arachne</li>
+<li>DataShield</li>
 </ul>
-<hr>
+</li>
+</ul>
 <h2 id="action-items" tabindex="-1"><a class="header-anchor" href="#action-items"><span>Action Items</span></a></h2>
 <ul>
 <li><strong>Coordinate releases</strong> across workgroups for synchronized development.</li>

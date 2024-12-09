@@ -1,6 +1,7 @@
 ---
 lang: en-US
 title: 2024 Meeting Notes
+editLink: true
 ---
 
 # OHDSI Technical Advisory Board (TAB) Overview
@@ -46,10 +47,12 @@ The OHDSI Technical Advisory Board (TAB) aims to guide and support the technical
 - Create a roadmap for supported technologies (e.g., runtimes, database platforms, R versions).
 - Provide clarity on tool and CDM version compatibility.
 
-### 7. **Data Shield Synergies**
-- Explore federated analytics opportunities for improved data security and collaboration.
-
----
+### 7. Federated Learning
+- The TAB discussed various approaches to federated research in 2024 including:
+   - Strategus
+   - Study Packages
+   - Arachne
+   - DataShield
 
 ## Action Items
 
