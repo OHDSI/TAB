@@ -4,6 +4,7 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   bundler: viteBundler(),
+  base: "/TAB/",
   theme: defaultTheme({
     logo: 'images/ohdsi-logo-colored.png',
     docsRepo: 'ohdsi/tab',
