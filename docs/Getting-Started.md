@@ -16,7 +16,12 @@ Clone the site and create a fork for your updates.
 
 Test your edits locally with:
 ``` shell
- npm run docs::dev
+    npm run docs::dev
+```
+
+Build the updated site locally with:
+``` shell
+    npm run docs:build
 ```
 
 Create a pull request for the TAB repository with any desired updates.
