@@ -9,6 +9,10 @@ actions:
     link: https://www.ohdsi.org
     type: primary
     
+  - text: Getting Started
+    link: /Getting-Started.md
+    type: primary
+
   - text: 2024 Meeting Notes
     link: /2024-Meeting-Notes.md
     type: primary
