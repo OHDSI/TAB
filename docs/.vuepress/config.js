@@ -11,7 +11,8 @@ export default defineUserConfig({
     docsBranch: 'main',
     docsDir: 'docs',
     editLinkPattern: ':repo/edit/:branch/:path',
-    editLink: true
+    editLink: true,
+    lastUpdated: true
   }),
   contributors: true,
   title: 'OHDSI Technical Advisory Board'
