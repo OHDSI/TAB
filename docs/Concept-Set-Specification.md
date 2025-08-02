@@ -30,15 +30,15 @@ The **expression** object contains:
 - **items** (array, required): A list of concept expression items, where each item includes:
     - **concept** (object, required): The complete concept details from OMOP vocabulary, including:
         - **conceptId** (integer, required): The unique OMOP concept identifier.
-        - **conceptName** (string, required): The human-readable name of the concept.
-        - **domainId** (string, required): The OMOP domain to which the concept belongs (e.g., Condition, Drug, Procedure).
-        - **vocabularyId** (string, required): The source vocabulary system (e.g., SNOMED, ICD10CM, RxNorm).
-        - **conceptClassId** (string, required): The classification of the concept within its vocabulary.
-        - **standardConcept** (string or null, required): Standard concept designation ("S" for Standard, "C" for Classification, null for non-standard).
-        - **conceptCode** (string, required): The original code from the source vocabulary.
-        - **validStartDate** (string, required): Date when the concept became valid (YYYY-MM-DD format).
-        - **validEndDate** (string, required): Date when the concept becomes invalid (YYYY-MM-DD format).
-        - **invalidReason** (string or null, required): Reason for concept invalidation ("D" for deleted, "U" for updated, null for valid concepts).
+        - **conceptName** (string, optional): The human-readable name of the concept.
+        - **domainId** (string, optional): The OMOP domain to which the concept belongs (e.g., Condition, Drug, Procedure).
+        - **vocabularyId** (string, optional): The source vocabulary system (e.g., SNOMED, ICD10CM, RxNorm).
+        - **conceptClassId** (string, optional): The classification of the concept within its vocabulary.
+        - **standardConcept** (string or null, optional): Standard concept designation ("S" for Standard, "C" for Classification, null for non-standard).
+        - **conceptCode** (string, optional): The original code from the source vocabulary.
+        - **validStartDate** (string, optional): Date when the concept became valid (YYYY-MM-DD format).
+        - **validEndDate** (string, optional): Date when the concept becomes invalid (YYYY-MM-DD format).
+        - **invalidReason** (string or null, optional): Reason for concept invalidation ("D" for deleted, "U" for updated, null for valid concepts).
     - **isExcluded** (boolean, required): Indicates whether the concept should be excluded from the set (false = include, true = exclude).
     - **includeDescendants** (boolean, required): Specifies whether descendant concepts in the vocabulary hierarchy should be included.
     - **includeMapped** (boolean, required): Specifies whether concepts mapped from source vocabularies should be included.
